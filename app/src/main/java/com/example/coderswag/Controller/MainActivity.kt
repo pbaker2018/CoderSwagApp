@@ -3,6 +3,7 @@ package com.example.coderswag.Controller
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ArrayAdapter
+import com.example.coderswag.Adapters.CategoryAdapter
 import com.example.coderswag.Model.Category
 import com.example.coderswag.R
 import com.example.coderswag.Services.DataService
@@ -10,7 +11,7 @@ import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
 
-    lateinit var adapter : ArrayAdapter<Category>
+    lateinit var adapter : CategoryAdapter
     /*the adapter is what puts the data from our dataService into our listview*/
     /*the adapter is the middle-man between the listview and the data*/
 
@@ -18,7 +19,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        adapter = ArrayAdapter(this, android.R.layout.simple_list_item_1, DataService.categories)
+        adapter = CategoryAdapter(this, DataService.categories)
 
         categoriesListView.adapter = adapter
         /*this is setting the adapter for the categoriesListView as the adapter

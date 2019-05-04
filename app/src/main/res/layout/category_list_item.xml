@@ -7,7 +7,7 @@
     <ImageView
             android:layout_width="0dp"
             android:layout_height="150dp" app:srcCompat="@drawable/hatimage"
-            android:id="@+id/hatsCategoryImage"
+            android:id="@+id/categoryImage"
             app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintHorizontal_bias="0.0"
@@ -18,9 +18,9 @@
             android:text="@string/hats"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/hatsCategoryTxt" app:layout_constraintEnd_toEndOf="@+id/hatsCategoryImage"
-            app:layout_constraintStart_toStartOf="@+id/hatsCategoryImage" android:layout_marginStart="8dp"
-            app:layout_constraintTop_toTopOf="@+id/hatsCategoryImage" android:layout_marginBottom="8dp"
-            app:layout_constraintBottom_toBottomOf="@+id/hatsCategoryImage" android:textSize="24sp"
+            android:id="@+id/categoryName" app:layout_constraintEnd_toEndOf="@+id/categoryImage"
+            app:layout_constraintStart_toStartOf="@+id/categoryImage" android:layout_marginStart="8dp"
+            app:layout_constraintTop_toTopOf="@+id/categoryImage" android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="@+id/categoryImage" android:textSize="24sp"
             android:textColor="@android:color/white" android:textStyle="bold"/>
 </android.support.constraint.ConstraintLayout>
