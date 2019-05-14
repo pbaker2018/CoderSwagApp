@@ -2,7 +2,9 @@ package com.example.coderswag.Controller
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.AdapterView
 import android.widget.ArrayAdapter
+import android.widget.Toast
 import com.example.coderswag.Adapters.CategoryAdapter
 import com.example.coderswag.Model.Category
 import com.example.coderswag.R
@@ -20,9 +22,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         adapter = CategoryAdapter(this, DataService.categories)
-
         categoriesListView.adapter = adapter
         /*this is setting the adapter for the categoriesListView as the adapter
-        we have just intialised.*/
+        we have just initialized.*/
     }
 }
