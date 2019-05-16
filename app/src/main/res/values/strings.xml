@@ -2,5 +2,6 @@
     <string name="app_name">CoderSwag</string>
     <string name="categories">Categories</string>
     <string name="hats">Hats</string>
-    <string name="hatsimage">hatsImage</string>
+    <string name="hatsimage">Hats Image</string>
+    <string name="products">Products</string>
 </resources>
