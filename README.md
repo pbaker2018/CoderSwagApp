@@ -10,4 +10,15 @@ The span-count will differ if the device is a tablet or when the device is rotat
 
 There is no testing included.
 
+# Screen Recording of App in action
+
+Copy and paste the following url into your browser to see a short screen-recording of the app.
+
+It shows it on both a tablet and a phone.
+
+```
+https://youtu.be/FABrBmgpodY
+
+```
+
 
