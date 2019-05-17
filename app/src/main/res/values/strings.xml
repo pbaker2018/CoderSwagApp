@@ -4,4 +4,5 @@
     <string name="hats">Hats</string>
     <string name="hatsimage">Hats Image</string>
     <string name="products">Products</string>
+    <string name="productimage">productImage</string>
 </resources>
